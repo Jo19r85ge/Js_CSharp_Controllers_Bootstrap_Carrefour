@@ -1,0 +1,17 @@
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\bin\Debug\netcoreapp2.2\Carrefour.lib.dll
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\obj\Debug\netcoreapp2.2\Carrefour.Web.csprojAssemblyReference.cache
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\obj\Debug\netcoreapp2.2\Carrefour.Web.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\obj\Debug\netcoreapp2.2\Carrefour.Web.RazorAssemblyInfo.cache
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\obj\Debug\netcoreapp2.2\Carrefour.Web.RazorAssemblyInfo.cs
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\obj\Debug\netcoreapp2.2\Carrefour.Web.AssemblyInfoInputs.cache
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\obj\Debug\netcoreapp2.2\Carrefour.Web.AssemblyInfo.cs
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\obj\Debug\netcoreapp2.2\Carrefour.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\bin\Debug\netcoreapp2.2\Carrefour.Web.deps.json
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\bin\Debug\netcoreapp2.2\Carrefour.Web.runtimeconfig.json
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\bin\Debug\netcoreapp2.2\Carrefour.Web.runtimeconfig.dev.json
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\bin\Debug\netcoreapp2.2\Carrefour.Web.dll
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\bin\Debug\netcoreapp2.2\Carrefour.Web.pdb
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\bin\Debug\netcoreapp2.2\Carrefour.lib.pdb
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\obj\Debug\netcoreapp2.2\Carrefour.Web.csproj.CopyComplete
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\obj\Debug\netcoreapp2.2\Carrefour.Web.dll
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.Web\obj\Debug\netcoreapp2.2\Carrefour.Web.pdb

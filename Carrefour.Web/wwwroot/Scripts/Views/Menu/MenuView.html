@@ -1,0 +1,101 @@
+﻿<style>
+    body 
+    {
+        font-family: "Lato", sans-serif;
+    }
+
+    .tablink 
+    {
+        background-color: #555;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 25%;
+    }
+
+    .tablink:hover 
+    {
+        background-color: #777;
+    }
+
+    .tabcontent 
+    {
+        color: white;
+        display: none;
+        padding: 50px;
+        text-align: center;
+    }
+
+    #User 
+    {
+        background-color: red;
+    }
+
+    #Employee 
+    {
+        background-color: green;
+    }
+
+    #Client 
+    {
+        background-color: blue;
+    }
+
+    #Product 
+    {
+        background-color: orange;
+    }
+</style>
+
+
+<body>
+    <div id="User" class="tabcontent">
+        <h1>User</h1>
+        <p>Add new user.</p>
+    </div>
+
+    <div id="Employee" class="tabcontent">
+        <h1>Employee</h1>
+        <p>Add new employee.</p>
+    </div>
+
+    <div id="Client" class="tabcontent">
+        <h1>Client</h1>
+        <p>Add new client.</p>
+    </div>
+
+    <div id="Product" class="tabcontent">
+        <h1>Product</h1>
+        <p>Add new product.</p>
+    </div>
+
+    <button class="tablink" ng-click="vm.ShowView('users')" onclick="openCity('User', this, 'red')" id="defaultOpen">User</button>
+    <button class="tablink" ng-click="vm.ShowView('employees')" onclick="openCity('Employee', this, 'green')">Employee</button>
+    <button class="tablink" ng-click="vm.ShowView('clients')" onclick="openCity('Client', this, 'blue')">Client</button>
+    <button class="tablink" ng-click="vm.ShowView('products')" onclick="openCity('Product', this, 'orange')">Product</button><br /><br /><br />
+
+    <script>
+        function openCity(cityName, elmnt, color)
+        {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++)
+            {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++)
+            {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(cityName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+
+        }
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>

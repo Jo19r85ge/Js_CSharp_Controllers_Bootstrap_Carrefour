@@ -1,0 +1,8 @@
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.lib\bin\Debug\netstandard2.0\Carrefour.lib.deps.json
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.lib\bin\Debug\netstandard2.0\Carrefour.lib.dll
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.lib\bin\Debug\netstandard2.0\Carrefour.lib.pdb
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.lib\obj\Debug\netstandard2.0\Carrefour.lib.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.lib\obj\Debug\netstandard2.0\Carrefour.lib.AssemblyInfoInputs.cache
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.lib\obj\Debug\netstandard2.0\Carrefour.lib.AssemblyInfo.cs
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.lib\obj\Debug\netstandard2.0\Carrefour.lib.dll
+C:\Users\Jorge\source\repos\Carrefour\Carrefour.lib\obj\Debug\netstandard2.0\Carrefour.lib.pdb

@@ -1,0 +1,178 @@
+﻿<style>
+    body 
+    {
+        font-family: Arial;
+        font-size: 17px;
+        padding: 8px;
+    }
+
+    * 
+    {
+        box-sizing: border-box;
+    }
+
+    .row 
+    {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0 -16px;
+    }
+
+    .col-25 
+    {
+        -ms-flex: 25%;
+        flex: 25%;
+    }
+
+    .col-50 
+    {
+        -ms-flex: 50%;
+        flex: 50%;
+    }
+
+    .col-75 
+    {
+        -ms-flex: 75%;
+        flex: 75%;
+    }
+
+    .col-25, .col-50, .col-75 
+    {
+        padding: 0 16px;
+    }
+
+    .container 
+    {
+        background-color: #f2f2f2;
+        padding: 5px 20px 15px 20px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
+
+    input[type=text] 
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    label 
+    {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .icon-container 
+    {
+        margin-bottom: 20px;
+        padding: 7px 0;
+        font-size: 24px;
+    }
+
+    .btn 
+    {
+        color: white;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        width: 100%;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+
+    .btn:hover 
+    {
+        background-color: #45a049;
+    }
+
+    a 
+    {
+        color: #2196F3;
+    }
+
+    hr 
+    {
+        border: 1px solid lightgrey;
+    }
+
+    @media (max-width: 800px) 
+    {
+        .row 
+        {
+            flex-direction: column-reverse;
+        }
+
+        .col-25 
+        {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+<div class="container">
+    <h2>Add new user !!</h2>
+    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+        Click to Add
+    </button>
+
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Add User</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+
+                    <body>
+                        <div class="row">
+                            <div class="col-75">
+                                <div class="container" style="max-width: 1250px;">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-50">
+                                                <h3>Data</h3>
+                                                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                                <input type="text" id="fname" name="firstname" ng-model="vm.Name" placeholder="Enter name...">
+                                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                                <input type="text" id="email" name="email" ng-model="vm.Email" placeholder="john@example.com">
+                                                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                                <input type="text" id="adr" name="address" ng-model="vm.Adress" placeholder="542 W. 15th Street">
+                                                <label for="city"><i class="fa fa-institution"></i> City</label>
+                                                <input type="text" id="city" name="city" ng-model="vm.City" placeholder="New York">
+
+                                                <div class="row">
+                                                    <div class="col-50">
+                                                        <label for="state"><i class="fa fa-flag"></i> State</label>
+                                                        <input type="text" id="state" name="state" ng-model="vm.State" placeholder="NY">
+                                                    </div>
+                                                    <div class="col-50">
+                                                        <label for="zip"><i class="fa fa-ellipsis-h"></i> Zip</label>
+                                                        <input type="text" id="zip" name="zip" ng-model="vm.Zip" placeholder="10001">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-success" ng-click="vm.AddNewUser()" data-dismiss="modal">Add</button>
+                                        <button class="btn btn-primary" ng-click="vm.SaveUser()" data-dismiss="modal">Save</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </body>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ui-grid="vm.GridOptions"></div>
+</div>
