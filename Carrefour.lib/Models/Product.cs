@@ -1,5 +1,6 @@
 ﻿namespace Carrefour.lib.Models
 {
+
     public class Product : Entity
     {
         public string Nameproduct { get; set; }
@@ -9,4 +10,5 @@
         public bool Gluten { get; set; }
         public bool Lactosa { get; set; }
     }
+    
 }
