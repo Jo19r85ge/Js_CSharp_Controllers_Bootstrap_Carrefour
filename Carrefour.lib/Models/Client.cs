@@ -1,5 +1,6 @@
 ﻿namespace Carrefour.lib.Models
 {
+
     public class Client : Entity
     {
         public string Name { get; set; }
@@ -14,4 +15,5 @@
         public int Cvv { get; set; }
         public int Expyear { get; set; }
     }
+    
 }
