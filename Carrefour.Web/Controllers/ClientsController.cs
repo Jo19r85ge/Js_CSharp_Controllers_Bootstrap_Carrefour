@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Carrefour.web.Controllers
 {
     [Route("api/[controller]")]
+    
     [ApiController]
     public class ClientsController : ControllerBase
     {
@@ -29,6 +30,7 @@ namespace Carrefour.web.Controllers
         };
 
         // GET api/values
+        
         [HttpGet]
         public ActionResult<IEnumerable<Client>> Get()
         {
@@ -36,6 +38,7 @@ namespace Carrefour.web.Controllers
         }
 
         // GET api/values/5
+        
         [HttpGet("{id}")]
         public ActionResult<Client> Get(string id)
         {
@@ -43,6 +46,7 @@ namespace Carrefour.web.Controllers
         }
 
         // GET api/values/5
+        
         [HttpPost]
         public ActionResult<Client> Post([FromBody] Client client)
         {
