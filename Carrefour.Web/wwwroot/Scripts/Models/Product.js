@@ -1,5 +1,6 @@
 ﻿class Product extends Entity
 {
+    
     constructor(json)
     {
         super(json);
