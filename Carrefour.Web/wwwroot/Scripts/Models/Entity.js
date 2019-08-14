@@ -1,5 +1,6 @@
 ﻿class Entity
 {
+    
     constructor(json)
     {
         if (json)
