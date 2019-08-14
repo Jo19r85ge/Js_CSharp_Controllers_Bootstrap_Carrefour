@@ -1,5 +1,6 @@
 ﻿class User extends Entity
 {
+    
     constructor(json)
     {
         super(json);
