@@ -2,6 +2,7 @@
 {
     constructor(json)
     {
+        
         super(json);
 
         if (json)
